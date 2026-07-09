@@ -29,3 +29,21 @@ docker build -t my-jsp-server .
 ```bash
 docker run -p 8080:8080 -v $(pwd):/usr/local/tomcat/webapps/ROOT/ my-jsp-server
 ```
+
+## 데이터베이스 연결
+
+### 데이터베이스 폴더 만들기
+
+```bash
+mkdir -p WEB-INF/lib
+```
+
+### SQLite JDBC 파일 받기
+
+```bash
+# 해당 폴더로 이동하기
+cd WEB-INF/lib
+
+# JDBC 파일 받기
+wget https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.53.2.0/sqlite-jdbc-3.53.2.0.jar
+```
