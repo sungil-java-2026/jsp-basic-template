@@ -3,9 +3,10 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Sample</title>
+    <title>Java Server Page</title>
 </head>
 <body>
-    <h2>Sample</h2>
+    <h1>Java Server Page</h1>
+    <h2>Hello JSP~!</h2>
 </body>
 </html>
